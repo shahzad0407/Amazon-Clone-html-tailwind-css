@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.smallfont{
+    font-size: 0.7rem;
+    margin:0;
+    padding: 0;
+}
+.bigfont{
+    font-size: 0.85rem;
+    margin:0;
+    padding: 0;
+}
+.searchbox{
+    width: 50vw;
+}
+.belownav{
+    font-size:14px;
+    font-weight: 600;
+}
+#image{
+    position: absolute;
+    z-index: -1;
+}
+body{
+    background-color: #e2e7e6;
+}
+.box{
+    background-color: white;
+}
+.items{
+    margin-top: 16rem;
+}
+a{
+    color:blue;
+}
+i,a:hover{
+    cursor: pointer;
+}
+#sign-in{
+    border: 0.1px solid gray;
+    background-color: white;
+    border-radius: 2px;
+}
+#sign-in-button{
+    border-radius: 5px;
+}
+#back-to-top{
+    background-color: #37475a;
+}
+#foot-panel{
+    background-color: #222f3d;
+}
+#foot-2{
+    background-color: #222f3d;
+    border-top: 0.1px solid gray;
+}
+footer{
+    background-color: #0f1111;
+    color: white;
+}
+#amazon{
+    position: absolute;
+    top: 1.8rem;
+    left: 9.5rem;
+}
+.hover:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
